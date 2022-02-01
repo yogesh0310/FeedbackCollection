@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                background-image: url('login.jpg');
+                background-repeat: no-repeat;
+                height: 100%;
+                /*background-position: center;*/
+                background-size: cover;
+                color: white;
+            
+            }
+        </style> 
+    </head>
+    <body>
+        <h1 style="color: white; font-family: 'Times new Roman'; text-align: center;">Sign up Page</h1>
+        <div class="container"> 
+        <form action = "AddStudent" method = "POST" style="align-items: center;">
+            <div class="form-group">
+                    Name:
+            
+                    <input type = "text" class="form-control" name = "uname" required><br>
+            
+                    Email:
+            
+                    <input type = "email" class="form-control" name = "uemail" required/><br>
+                    Department:
+                    <input type = "text" name = "udept" class="form-control" required/><br>
+                    Username:
+                    <input type = "text" name = "username" class="form-control" required/><br>
+                    Password:
+                    <input type = "password" name = "pass" class="form-control" required/><br>
+                        <input type = "submit" class="btn btn-success" value = "Submit" />
+            
+        </form>
+    </body>
+</html>

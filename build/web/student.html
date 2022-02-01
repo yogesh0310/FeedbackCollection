@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            body{
+                background-image: url('login.jpg');
+                background-repeat: no-repeat;
+                height: 100%;
+                /*background-position: center;*/
+                background-size: cover;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: white; text-align: center; font-family: Times New Roman;">Login Page</h1>
+        <div class="container">
+        <form action = "StudentLogin" method = "POST" style="align-items: center;">
+            <div class="form-group">
+                    User Name:
+                    <input type = "text" class="form-control" name = "login"required><br>
+            
+                    Password:
+                    <input type = "password" class="form-control" name = "pass" required/><br>
+                    <input type = "submit" class="btn btn-success" value = "Submit" /><br><br><br>
+            Not registered yet?<a href="register.html">Click here to register</a>
+        </form>
+        </div>
+    </body>
+</html>

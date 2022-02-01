@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+        body{
+/*            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);*/
+            background-image: url('admindash.jpg');
+            background-repeat: no-repeat;
+            height: 100%;
+            /*background-position: center;*/
+            background-size: cover;
+            color: white;
+            
+            
+        }
+        .group{
+            /*margin: 20px;*/
+            margin-top: 5%;
+            margin-left: 28%;
+        }
+        .group a{
+            text-decoration: none;
+        }
+        </style>
+    </head>
+    <body> 
+        <div class="container">
+            <h1 style="text-align: center; font-family: 'Times New Roman';  color: white;">Dashboard</h1>
+            <div class="group">
+                <a href="addFaculty.html"> <button class="btn btn-success">Add Faculty</button>&nbsp;&nbsp;</a>
+                <a href="viewFaculty.html"><button class="btn btn-success">View Faculty</button>&nbsp;&nbsp;</a>
+                <a href="viewStudent.html"><button class="btn btn-success">View Students</button>&nbsp;&nbsp;</a>
+                <a href="viewFeedback.html"><button class="btn btn-success">View Feedback</button>&nbsp;&nbsp;</a>
+                <a href="logout.html"><button class="btn btn-success">Logout</button>&nbsp;&nbsp;</a>
+            </div>
+        </div>
+    </body>
+</html>

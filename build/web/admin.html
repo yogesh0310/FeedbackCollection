@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .fnt
+            {
+                font-family: 'Times New Roman';
+            }
+            body{
+                background-image: url('login.jpg');
+                background-repeat: no-repeat;
+                height: 100%;
+                /*background-position: center;*/
+                background-size: cover;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="fnt" style="color: white; text-align: center;">Login Page</h1><br>
+        
+        <div class="container">
+        <form action = "AdminLogin" method = "POST" style="align-items: center;">
+            <div class="form-group">
+            
+                    User Name:
+                    <input type = "text" class="form-control" name = "login" required><br>
+                
+                    Password:
+                
+                    <input type = "password" class="form-control" name = "pass" required/><br>
+                
+                        <input type = "submit" class="btn btn-success" value = "Submit" />
+                
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
